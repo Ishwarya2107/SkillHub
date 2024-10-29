@@ -1,0 +1,121 @@
+/* 
+.home-container {
+    
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto; 
+    font-family: 'Arial', sans-serif;
+    transform: translateY(100px); 
+}
+
+
+.home-title {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+
+.home-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #153448;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.home-button:hover {
+    background-color: #153448;
+} */
+
+.logo {
+    font-size: 1.5rem;
+    color: #153448;
+  }
+  
+.home-h2{
+    color:#153448;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f9f9f9;
+    color: #ffffff;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+ 
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: -100px 20px;
+    margin-bottom: 200px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h2 {
+    font-size: 4.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 50px;
+    
+  }
+  
+  .home-button {
+    background-color: transparent;
+    color: #153448;
+    border: 2px solid #153448;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    font-size: 18px; /* Adjust size as needed */
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px 20px; /* Adjust padding as needed */
+     /* Optional: set a background color */
+     /* Optional: set the text color */
+    /* Optional: remove border */
+    /* Optional: add rounded corners */
+    cursor: pointer; /* Optional: change cursor on hover */
+ 
+  }
+  
+  .home-button:hover {
+    background-color: #153448;
+    color: #f9f9f9;
+  }
+  
+  .image-content img {
+    max-width: 500px;
+    height: 600px;
+    margin-right: 150px;
+  }

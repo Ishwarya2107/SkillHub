@@ -1,0 +1,55 @@
+.profile-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .h2-cp{
+    color: #153448;
+  }
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-input[type="text"], .profile-input[type="password"] {
+    height: 40px;
+  }
+  
+  .profile-input[type="textarea"] {
+    min-height: 80px;
+  }
+  
+  .profile-button {
+    background-color: #153448;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* Adjust the width to reduce the button size */
+    text-align: center; /* Centers the text within the button */
+}
+  
+  .profile-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-message {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  textarea{
+    white-space: pre-wrap;
+  }

@@ -1,0 +1,45 @@
+.table-container {
+    padding: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 2px solid #153448;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table input {
+    width: 70%; /* Adjust width as needed */
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .data-table button {
+    padding: 6px 12px;
+    background-color: #153448; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .data-table button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

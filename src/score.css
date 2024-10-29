@@ -1,0 +1,27 @@
+.score-box {
+  padding-top: 100px;
+  margin-top: 250px; /* Increased margin to create more space */
+  background-color: #f0f0f0; /* Light background color */
+  border-radius: 15px; /* Rounded corners */
+
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+
+  color: #153448; /* Dark text color */
+  margin: auto; /* Center the box */
+}
+
+  
+  .score-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .score-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #153448; /* Accent color for score */
+  }
+  
